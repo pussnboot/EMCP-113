@@ -1,0 +1,314 @@
+h1 {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    box-shadow: 5px -5px 30px 1px hotpink;
+    border-style: double;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+
+
+}
+
+body {
+    background: linear-gradient(-45deg, black, white);
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+    background-size: 400% 400%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+p {
+    color: cyan;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-width: 3px;
+
+    border-style: solid;
+    border-radius: 12px;
+
+    box-shadow: 5px -5px 30px 1px hotpink;
+
+    padding: 30px 100px;
+    margin-right: 1400px;
+    margin-left: 5px;
+
+
+    /*margin-right: 1400px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-left: 5px;*/
+
+    transition: all 1s;
+
+
+
+}
+
+p:hover {
+    color: skyblue;
+    border-color: skyblue;
+
+
+
+    box-shadow: 0 5px 8px 2px rgb(176, 176, 176);
+
+
+
+}
+
+section {
+    color: crimson;
+    font-family: monospace;
+
+}
+
+
+.main-heading {
+    color: crimson;
+    box-shadow: 0 5px 8px 2px rgba(255, 0, 0, 0.699);
+    box-shadow: 20px 10px 60px red inset;
+
+    /*padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;*/
+    padding: 30px 100px;
+    margin-right: 1525px;
+    margin-left: 5px;
+}
+
+main-heading {
+    color: yellow;
+    border-style: solid;
+    border-color: white;
+    border-radius: 3px;
+    background-color: blueviolet;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.orange_text {
+    color: orangered;
+    font-family: sans-serif;
+    font-weight: bold;
+    animation-name: bg-color-animation;
+    animation-duration: 3s;
+
+}
+
+.itatlic-text {
+    font-style: italic;
+    color: white;
+}
+
+
+
+
+a:hover {
+    color: red;
+}
+
+
+
+
+@keyframes bg-color-animation {
+    25% {
+        color: red;
+    }
+
+    50% {
+        color: darkred;
+    }
+
+    75% {
+        color: grey;
+    }
+
+    100% {
+        color: white;
+    }
+}
+
+.myForm {
+
+
+    border-width: 3px;
+    border-color: grey;
+    border-style: solid;
+    background-color: whitesmoke;
+
+    padding: 20px;
+    margin: 120px;
+
+
+}
+
+input {
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+
+    border-radius: 40px;
+    padding: 6px;
+}
+
+input[type=submit] {
+    border-radius: 0px;
+
+
+}
+
+.stories-section {
+
+    /*background-image: linear-gradient(to bottom right, orange, cyan);
+    background-image: linear-gradient();
+
+    background-size: contain;
+
+    text-align: center;
+    /*letter-spacing: 3px;*/
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+    background-size: 400% 400%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+b {
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-weight: bold;
+    /*border-width: 3px;
+
+    /*border-style: solid;
+    border-radius: 12px;*
+
+    /*box-shadow: 5px -5px 30px 1px hotpink;*/
+
+
+    margin-right: 1400px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+
+    transition: all 1s;
+}
+
+
+nav {
+    background-color: aliceblue;
+}
+
+
+
+
+h2 {
+    color: #FFD700;
+    border-style: solid;
+    background-color: green;
+    text-align: center;
+    padding: 6px;
+    font-family: sans-serif;
+
+    margin-left: 750px;
+    margin-right: 750px;
+
+}
+
+h2 nav a {
+    text-decoration: none;
+
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: large;
+    margin: 0px 20px;
+
+}
+
+h2:hover {
+    color: blue;
+
+    transition: 2s;
+
+}
+
+nav a i {
+    margin-right: 6px;
+}
+
+
+
+
+
+
+
+
+h3 {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    border-style: double;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+
+}
+
+.joke-title {
+    color: green;
+}
+
+#jokes {
+
+    padding: 6px;
+
+}
+
+button {
+    text-align: center;
+}
